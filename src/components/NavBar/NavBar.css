@@ -1,0 +1,22 @@
+.NavBar {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background-color: powderblue;
+}
+.ul {
+    display: flex;
+    font-size: 1.4rem;
+    width: 100%;
+    justify-content: space-around; 
+    align-items: center;
+}
+.li {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+.LogoNavBar {
+    width: 14rem;
+}
