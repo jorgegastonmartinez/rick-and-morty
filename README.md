@@ -28,7 +28,7 @@ Este proyecto es una aplicación web que utiliza la API de Rick and Morty para m
 
 ![Material UI](https://img.shields.io/badge/Material--UI-007FFF?style=for-the-badge&logo=mui&logoColor=white) Framework de componentes de interfaz de usuario para React, que proporciona componentes preconstruidos y estilos personalizados.
 
-Para los estilos de la aplicación, creando un diseño limpio y funcional. ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white) 
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white) Para los estilos de la aplicación, creando un diseño limpio y funcional.
 
 
 ## Comandos
