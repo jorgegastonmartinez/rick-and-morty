@@ -7,13 +7,10 @@ const ErrorPage = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-
-    const timer = setTimeout(() => {
+    setTimeout(() => {
       navigate("/");
     }, 5000);
-
-    return () => clearTimeout(timer);
-  }, [navigate]);
+  }, [])
 
   return (
     <div className='Container404'>
