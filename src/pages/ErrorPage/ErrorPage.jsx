@@ -7,14 +7,17 @@ const ErrorPage = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    setTimeout(() => {
+
+    const timer = setTimeout(() => {
       navigate("/");
     }, 5000);
-  })
+
+    return () => clearTimeout(timer);
+  }, [navigate]);
 
   return (
     <div className='Container404'>
-      <h2>redireccionando a la página de inicio</h2>
+      <h2>redireccionando a la página de inicio en 5 segundos</h2>
       <img src={img404} alt="imagen de error 404" />
     </div>
   )
