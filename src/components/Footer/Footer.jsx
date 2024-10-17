@@ -5,7 +5,7 @@ import './Footer.css'
 const Footer = () => {
   return (
     <div className='Footer'>
-        <img src={imgFooter} alt="" />
+        <img src={imgFooter} alt="logo de rick and morty"/>
     </div>
   )
 }

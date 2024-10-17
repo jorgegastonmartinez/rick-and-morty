@@ -5,7 +5,7 @@ import imgHeader from "../../assets/rick6.jpg"
 const Header = () => {
   return (
     <div className='Header'>
-        <img src={imgHeader} alt="" />
+        <img src={imgHeader} alt="imagen de rick and morty"/>
     </div>
   )
 }

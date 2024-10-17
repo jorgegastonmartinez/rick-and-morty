@@ -1,3 +1,4 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css'
 
 import Header from './components/Header/Header';
@@ -11,7 +12,6 @@ import ErrorPage from './pages/ErrorPage/ErrorPage';
 import DetailPage from './pages/DetailPage/DetailPage';
 import CategoryPage from './pages/CategoryPage/CategoryPage';
 
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 const App = () => {
 

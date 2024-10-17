@@ -1,9 +1,9 @@
 .NavBar {
-    width: 100vw;
     display: flex;
     align-items: center;
-    padding: 1rem;
+    padding: 2rem;
     background-color: powderblue;
+    justify-content: space-between;
 }
 .ul {
     display: flex;
@@ -11,6 +11,8 @@
     width: 100%;
     justify-content: space-around; 
     align-items: center;
+    margin: 0;
+    padding: 0;
 }
 .li {
     text-decoration: none;
@@ -19,4 +21,25 @@
 }
 .LogoNavBar {
     width: 14rem;
+}
+
+@media (max-width: 768px) {
+    .NavBar {
+        flex-direction: column; 
+        align-items: flex-start; 
+    }
+
+    .ul {
+        flex-direction: column; 
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .li {
+        margin: 0.5rem 0; 
+    }
+
+    .LogoNavBar {
+        margin-bottom: 1rem;
+    }
 }
