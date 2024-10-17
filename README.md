@@ -55,7 +55,11 @@ npm run dev
 
 ## Uso
 
-- Copie la siguiente url en su navegador <a href="https://jorgegastonmartinez.github.io/rick-and-morty/" target="_blank">https://jorgegastonmartinez.github.io/rick-and-morty/</a>
+- Copie la siguiente url en su navegador 
+```
+https://jorgegastonmartinez.github.io/rick-and-morty/
+```
+
 - Al iniciar la aplicación, verás la vista de la Home Page, con un Header, NavBar, una lista de personajes con su imagen y nombre y el Footer.
 - Puedes filtrar los personajes por especie (Human o Alien).
 -  Al hacer clic en una tarjeta de personaje, serás redirigido a una página que muestra los detalles del personaje seleccionado.
