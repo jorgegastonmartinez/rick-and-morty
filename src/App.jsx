@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css'
 
 import Header from './components/Header/Header';
@@ -15,7 +15,7 @@ import CategoryPage from './pages/CategoryPage/CategoryPage';
 const App = () => {
 
   return (
-    <Router basename="/rick-and-morty/">
+    <BrowserRouter basename="/rick-and-morty/">
       <div className="App">
         <Header />
         <NavBar />
@@ -29,7 +29,7 @@ const App = () => {
         </Routes>
         <Footer />
       </div>
-    </Router>
+    </BrowserRouter>
   );
 }
 
