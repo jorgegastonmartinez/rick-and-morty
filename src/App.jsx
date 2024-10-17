@@ -12,11 +12,10 @@ import ErrorPage from './pages/ErrorPage/ErrorPage';
 import DetailPage from './pages/DetailPage/DetailPage';
 import CategoryPage from './pages/CategoryPage/CategoryPage';
 
-
 const App = () => {
 
   return (
-    <Router>
+    <Router basename="/rick-and-morty/">
       <div className="App">
         <Header />
         <NavBar />
